@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: VM5 trusted shared source baseline
+    conditions:
+      - base = vm5-shared-base-260914
+    actions:
+      comment:
+        message: VM5-TRUSTED-SHARED-SOURCE
